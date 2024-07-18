@@ -4,19 +4,19 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <article xml:id="my-great-syllabus">
+    <title>Course Information Sheet</title>
+    <subtitle>MTH 161: Analytic Geometry and Calculus I</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./sec-section-name.ptx" />
 
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
-  </book>
+  </article>
 </pretext>
